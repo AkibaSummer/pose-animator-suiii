@@ -29,11 +29,7 @@ import {PoseIllustration} from './illustrationGen/illustration';
 import {Skeleton, facePartName2Index} from './illustrationGen/skeleton';
 import {FileUtils} from './utils/fileUtils';
 
-import * as girlSVG from './resources/illustration/girl.svg';
-import * as boySVG from './resources/illustration/boy.svg';
-import * as abstractSVG from './resources/illustration/abstract.svg';
-import * as blathersSVG from './resources/illustration/blathers.svg';
-import * as tomNookSVG from './resources/illustration/tom-nook.svg';
+import * as suiiiSVG from './resources/illustration/suiii.svg';
 
 // Camera stream video element
 let video;
@@ -58,11 +54,7 @@ let nmsRadius = 30.0;
 let mobile = false;
 const stats = new Stats();
 const avatarSvgs = {
-  'girl': girlSVG.default,
-  'boy': boySVG.default,
-  'abstract': abstractSVG.default,
-  'blathers': blathersSVG.default,
-  'tom-nook': tomNookSVG.default,
+  'suiii': suiiiSVG.default,
 };
 
 /**
